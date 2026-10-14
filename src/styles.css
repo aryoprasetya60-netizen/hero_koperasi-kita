@@ -69,7 +69,7 @@ p {
 }
 
 .security-information {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .stats {
@@ -82,6 +82,9 @@ p {
 }
 
 @media screen and (max-width: 968px) {
+  .button-hero a {
+    width: 100%;
+  }
   .hero {
     flex-direction: column;
   }
@@ -120,4 +123,5 @@ p {
   .simulasi-pinjaman {
     font-size: 12px;
   }
+  
 }
