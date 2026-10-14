@@ -37,22 +37,87 @@ p {
 
 .button-hero {
   display: flex;
-  flex-direction: row;
-  max-width: 100%;
+  flex-direction: column;
 }
 
 .h1 {
   font-size: 44px;
 }
+
 .p-description {
   font-size: 16px;
 }
 
-@media screen and (max-width: 768px) {
+.hero-left-info {
+  font-size: 13px;
+}
+.title-right {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sub-title-right {
+  font-size: 14px;
+}
+
+.title-stat {
+  font-size: 16px;
+  text-align: left;
+}
+
+.data-stat {
+  font-size: 38px;
+}
+
+.security-information {
+  font-size: 18px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+}
+
+.simulasi-pinjaman {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 968px) {
   .hero {
     flex-direction: column;
   }
   .h1 {
     font-size: 26px;
+  }
+  .hero-left-info {
+    font-size: 8px;
+    padding: 5px;
+  }
+  .button-hero {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .kanan {
+    padding: 1%;
+    margin: 5px;
+  }
+  .title-right {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .security-information {
+    font-size: 9px;
+    flex-direction: row;
+  }
+  .sub-title-right {
+    font-size: 12px;
+  }
+  .stats {
+    display: flex;
+    flex-direction: column;
+  }
+  .simulasi-pinjaman {
+    font-size: 12px;
   }
 }
